@@ -1,0 +1,262 @@
+.hero-cont {
+    background-image: url('./images/building-926000_1280.jpg');
+    width: 100%;
+    padding-top: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 0 !important;
+    height: 44rem;
+}
+
+
+
+.navbar {
+    background-color: whitesmoke;
+    border-radius: 40px;
+    /* margin-top: 20px; */
+    margin-left: 40px;
+    margin-right: 70px;
+    width: 80rem;
+    height: 70px;
+}
+
+.mobile-nav {
+    display: none;
+    /* Hide on PC screens */
+}
+
+.collapse {
+    margin-left: 300px;
+}
+
+.nav-link {
+    font-size: medium;
+    color: black;
+}
+
+.nav-link:hover {
+    color: blue;
+}
+
+.navbar-brand {
+    margin-left: 70px;
+}
+
+.download {
+    align-items: end;
+    height: 55px;
+    width: 200px;
+    border-radius: 30px;
+}
+
+.contain {
+    display: flex;
+}
+
+.tag {
+    border-style: dashed;
+    padding: 5px;
+    width: 350px;
+    height: 60px;
+    border-radius: 40px;
+    margin-top: 160px;
+    margin-left: 150px;
+}
+
+.tag-text {
+    margin-top: 20px;
+    margin-left: 160px;
+    font-family: Fraunces;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.abt {
+    margin-left: 160px;
+    font-weight: 700;
+}
+
+.g-play {
+    margin-left: 160px;
+    border-radius: 35px;
+}
+
+.app-store {
+    margin-left: 10px;
+    border-radius: 35px;
+}
+
+.phone-img {
+    flex: 1;
+    text-align: justify;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.img-curved {
+    border-radius: 30px;
+}
+
+.providers1 {
+    display: flex;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.providers {
+    font-family: Fraunces;
+    color: black;
+    font-size: 35px;
+    font-weight: 1000;
+}
+
+.providers2 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.service-sec {
+    margin-top: 100px;
+    padding-bottom: 100px;
+    padding-top: 60px;
+    background-color: rgb(211, 214, 214);
+}
+
+.providers span {
+    color: #0a52af;
+}
+
+.serv-text {
+    font-family: 'Fraunces';
+    text-align: center;
+    font-size: 35px;
+    font-weight: 1000;
+}
+
+.divider {
+    width: 100px;
+    height: 8px;
+    background-color: #482121;
+    margin: 10px auto;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.dwnlod-step {
+    display: flex;
+    margin-top: 60px;
+    margin-left: 300px;
+}
+
+.img2-curved {
+    border-radius: 30px;
+}
+
+.dwnlod-text {
+    margin-left: 150px;
+    font-family: 'Fraunces';
+    text-align: left;
+    font-size: 35px;
+    font-weight: 1000;
+}
+
+.dwnlod-text span {
+    color: #0a52af;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        display: none;
+        /* Hide on mobile screens */
+    }
+
+    .mobile-nav {
+        display: block;
+        text-align: center;
+        /* Display on mobile screens */
+    }
+
+    .hero-cont {
+        background-image: url('./images/building-926000_1280.jpg');
+        width: 400%;
+        padding-top: 20px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        margin-top: 0 !important;
+        height: 44rem;
+    }
+
+    .phone-img {
+        flex: 1;
+        text-align: justify;
+        margin-top: 50px;
+        margin-left: 350px;
+    }
+
+    .providers {
+        width: 650%;
+    }
+
+    .providers2 {
+        width: 300%;
+        margin-left: 300px;
+    }
+
+    .service-sec {
+        width: 400%;
+    }
+
+    .card {
+        margin-left: 250px;
+        font-size: 50px;
+        width: 70% !important;
+        border-radius: 40px;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {}
